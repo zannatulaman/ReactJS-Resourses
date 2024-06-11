@@ -1,0 +1,19 @@
+.offerSection-heading{
+    font-size: 3rem;
+    line-height: 1.1;
+    color: #213547;
+    text-align: center;
+   
+}
+
+.offerSection-list{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.offerSection-list-item{
+    border: 1px solid grey;
+    text-align: center;
+    padding: 10px;
+}

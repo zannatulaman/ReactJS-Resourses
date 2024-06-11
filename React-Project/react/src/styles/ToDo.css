@@ -1,0 +1,31 @@
+.to-do{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.to-do-container{
+    width: 400px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.to-do-container input{
+    width: 70%;
+    padding: 8px;
+    border-radius: 5px;
+}
+
+.to-do-container button{
+    background-color: #007BFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 10px;
+    color: white;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
