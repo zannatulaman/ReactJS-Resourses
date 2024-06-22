@@ -1,0 +1,28 @@
+.user-data-heading{
+    font-size: 3rem;
+    line-height: 1.1;
+    color: #213547;
+    text-align: center;
+   
+}
+
+.user-data-item{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.user-data-item-list{
+    border: 1px solid grey;
+    text-align: center;
+    /* padding: 10px; */
+}
+
+.user-data-item-list img{
+    margin-top: 10px;
+    width: 200px;
+}
+
+.single-user-info{
+    display: block;
+}

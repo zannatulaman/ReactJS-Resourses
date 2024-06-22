@@ -9,8 +9,8 @@ const FetchData = () => {
     useEffect(() => {
         fetch("https://api.ts4u.us/api/course/get?type=program")
         .then((response) => response.json())
-        .then((data) => {setUsers(data?.courses)
-            // console.log(data);
+        .then((data) => {setUsers(data.courses)
+            console.log(data);
         })
        
     } , [])

@@ -31,8 +31,8 @@ const OfferSection = () => {
            We Offer a Wide <br />
            Variety of Desktop App Development
         </h1>
-
-       {/* <div className='offerSection-list'>
+         <br />
+       <div className='offerSection-list'>
           {
             sections.map((item, index) =>
                <div key={index} className='offerSection-list-item'>
@@ -45,9 +45,9 @@ const OfferSection = () => {
         
         }
 
-       </div> */}
+       </div>
 
-     <div className='offerSection-list'>
+     {/* <div className='offerSection-list'>
       {
        sections.map((item, index) =>
             <OfferSectionItem key={index} items={item}></OfferSectionItem>
@@ -55,7 +55,7 @@ const OfferSection = () => {
 
     }
 
-   </div>
+   </div> */}
 
        
         

@@ -29,3 +29,10 @@
     cursor: pointer;
 }
 
+.to-do-container-list button{
+    background-color: transparent;
+    border: 1px solid gray;
+    padding: 5px;
+    color: red;
+}
+

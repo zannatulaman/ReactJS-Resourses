@@ -1,0 +1,36 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "name": "Mashrafi Bin Mortaza",
+            "phone": "00000000",
+            "email" : "mashrafi@gmail.com",
+            "website" : "www.mashrafi.com",
+            "image" : "https://c.ndtvimg.com/2020-01/23pcmm6s_mashrafe-mortaza-pc-afp_625x300_13_January_20.jpg"
+        },
+        {
+            "id": 2,
+            "name": "Sakib Al Hasan",
+            "phone": "00000000",
+            "email" : "sakib@gmail.com",
+            "website" : "www.sakib.com",
+            "image" : "https://image.crictracker.com/wp-content/uploads/2017/04/Shakib-al-Hasan-600x375.jpg"
+        },
+        {
+            "id": 3,
+            "name": "Tamim Iqbal",
+            "phone": "00000000",
+            "email" : "tamim@gmail.com",
+            "website" : "www.tamim.com",
+            "image" : "https://www.celebritiesbio.in/wp-content/uploads/2019/09/1-78.jpg"
+        },
+        {
+            "id": 4,
+            "name": "Muhammad Rubel Hossain",
+            "phone": "00000000",
+            "email" : "rubelhossain@gmail.com",
+            "website" : "www.rubel.com",
+            "image" : "https://starsunfolded.com/wp-content/uploads/2017/01/Rubel-Hossain-Profile.jpg"
+        }
+    ]
+}

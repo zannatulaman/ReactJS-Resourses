@@ -13,10 +13,22 @@ const ToDo = () => {
 //    console.log('Task', task);
 
    const handleClick = () => {
-        setList([...list ,task])
-        setTask("")
+        if(task){
+          setList([...list ,task])
+          setTask("")
+        }else{
+          alert("Please enter a task")
+        }
+       
+  }
+  //  console.log('List', list);
+
+   const handleDelete = (id) => {
+        // console.log(id);
+        const updatedLists = [...list];
+        updatedLists.splice(id, 1)
+        setList(updatedLists);
    }
-//    console.log('List', list);
 
   return (
     <div className='to-do'>
@@ -26,8 +38,11 @@ const ToDo = () => {
         <button onClick={handleClick}>Add Task</button>
         <ul className='to-do-container-list'>
                {
-                list.map((item, index) => 
-                    <li key={index}>{item}</li>
+                list.map((item, i) => 
+                    <li key={i}>{item}
+                     <button onClick={() => handleDelete(i)}>Delete</button>
+                    </li>
+                   
                 )
                }
            </ul>
